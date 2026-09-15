@@ -1,5 +1,5 @@
 {
-  "name": "husain-zaidi-pi-computer-use",
+  "name": "pi-computer-use-exec",
   "version": "0.1.0",
   "files": ["extensions", "src", "python", "scripts", "requirements.txt"],
   "description": "Code-first computer use for pi: persistent Python, Playwright and opt-in PyAutoGUI",
