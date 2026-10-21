@@ -1,4 +1,4 @@
-# pi-computer-use
+# pi-computer-use-exec
 
 A code-first [pi](https://pi.dev) extension with **persistent Python + Playwright + opt-in PyAutoGUI**. Inspired by the [OpenAI CUA sample](https://github.com/openai/openai-cua-sample-app) and the [computer-use guide](https://developers.openai.com/api/docs/guides/tools-computer-use).
 
@@ -36,7 +36,7 @@ pi install npm:pi-computer-use-exec
 Or install straight from the public git repo:
 
 ```
-pi install git:github.com/husain-zaidi/pi-computer-use
+pi install git:github.com/husain-zaidi/pi-computer-use-exec
 ```
 
 `pi install` runs the package's `postinstall`, which handles the Python side automatically: it creates `.venv`, installs `requirements.txt` into it, and downloads Playwright's Chromium. If you'd rather do that by hand (or `PI_CUA_SKIP_POSTINSTALL=1` was set), run once in the package directory:

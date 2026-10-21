@@ -1,0 +1,69 @@
+{
+  "id": "code-2-8bc34af8",
+  "variant": "code",
+  "trial": 2,
+  "supervisorPid": 34516,
+  "exit": {
+    "code": 0,
+    "signal": null
+  },
+  "timedOut": false,
+  "elapsedMs": 19891.788400000005,
+  "firstAgentMs": 1592.90830000001,
+  "agentEndMs": 18765.324200000017,
+  "taskMs": 17172.415900000007,
+  "submissionMs": 16361.423800000004,
+  "success": true,
+  "submissions": [
+    {
+      "data": {
+        "name": "Ada Lovelace",
+        "email": "ada@example.test",
+        "company": "Analytical Engines",
+        "job": "Research Engineer",
+        "notes": "Please send the workshop agenda.",
+        "updates": true
+      },
+      "ok": true,
+      "elapsedMs": 16361.423800000004,
+      "timestamp": "2026-09-12T09:04:24.512Z"
+    }
+  ],
+  "turns": 3,
+  "toolCalls": 2,
+  "toolMs": 5501.531699999992,
+  "usage": {
+    "input": 622,
+    "output": 282,
+    "cacheRead": 0,
+    "cacheWrite": 6156,
+    "totalTokens": 7060,
+    "cost": 0.09727
+  },
+  "calls": [
+    {
+      "name": "exec_py",
+      "id": "call_brdZHUJaTOB12MPqcOktFuys|v8oXLXV4dsSR5AMjsU33ggVuxnD081BQshPdeCBM+KfwsAP+sTPL7yHZLpB//LEMPXLLNmLrN8COHNwZ7wd3cWVBkIfzIMqJ1y29SH435BaJRyUw8W8JnBjhcmbXDbNO/4c2UmN6la4Az2/7Ge6lyf/lInBWFN+E0/a4uyYFImsyURQvlAji3CgBYUSUYCzcp0iGrmOaxOGNAFW0b4s13qr2WBMXeJM+TH6V4viR8CnRDsKk2z7oqTSgWlvjQH17YoCPqZcXOoYoE73ZdK3KILwlGg+9Ws+bRJllGRU2m5ZnbPyEcXWNRToL6KBOjpdfNhZCT/+P66CHG/TWvKflquVnNZmWwDEK+GVev6fC/P0hqopnNMW0Sr38gKS9p29Ky6fs84E/Zhk2JK1qm04/f3D/HYCYw9Q=",
+      "startMs": 4611.641300000003,
+      "args": {
+        "code": "start_browser('http://127.0.0.1:51007/case/code-2-8bc34af8')\nlog(page.locator('body').aria_snapshot())\ndisplay(page.screenshot())",
+        "timeout_ms": 60000
+      },
+      "endMs": 9465.412599999996,
+      "durationMs": 4853.771299999993,
+      "isError": false
+    },
+    {
+      "name": "exec_py",
+      "id": "call_HY8gNHkAO6x7cSIdy85kgvn3|NmFRLidsvA7wmOJKbDcCv2B9I+I9SFq+rX3J/Ynq5eYIZIh2RmZdeIMUZFGgUZ+3r+DlM1rGS0Uq4ETPBg7BHtbGbc5aLcproLgQ1TMpJeiepkucOl8vp65LPxg/5027aFBmo2/tyYORTq+hBU/I5PjOZc+AQx3u5Heek/3SNZykwhksa3ZPB002aYbeXTaylIclf1B/bz2AQ7CbwnKM+4DZ6z7p83Lt7/0xVDhmta21v1pOpvg426peX4QCdHulfid23+Niz9fi0kfH7RpTcAv8fWOOYcoXhaS0MkMFsTi64ZGBSxF0LhRs8KGB2qJi/DjZRjcVz4sD+cKvKOo6PyBzwFONVf6rmuV/ZudZYcsjquQ8PE51RzmuhB7bvMxx49o+0lHGuRZL6Iq1UBrVZeQr130DJZA=",
+      "startMs": 15997.5291,
+      "args": {
+        "code": "page.get_by_role('textbox', name='Full name', exact=True).fill('Ada Lovelace')\npage.get_by_role('textbox', name='Email', exact=True).fill('ada@example.test')\npage.get_by_role('textbox', name='Company', exact=True).fill('Analytical Engines')\npage.get_by_role('textbox', name='Job title', exact=True).fill('Research Engineer')\npage.get_by_role('textbox', name='Notes', exact=True).fill('Please send the workshop agenda.')\npage.get_by_role('checkbox', name='Send workshop updates', exact=True).check()\npage.get_by_role('button', name='Register', exact=True).click()\nlog(page.locator('body').aria_snapshot())\ndisplay(page.screenshot())",
+        "timeout_ms": 60000
+      },
+      "endMs": 16645.2895,
+      "durationMs": 647.7603999999992,
+      "isError": false
+    }
+  ]
+}

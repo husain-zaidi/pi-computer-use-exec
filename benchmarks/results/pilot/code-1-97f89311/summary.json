@@ -1,0 +1,27 @@
+{
+  "id": "code-1-97f89311",
+  "variant": "code",
+  "trial": 1,
+  "exit": {
+    "code": 1,
+    "signal": null
+  },
+  "timedOut": false,
+  "elapsedMs": 19628.9703,
+  "taskMs": null,
+  "submissionMs": null,
+  "success": false,
+  "submissions": [],
+  "turns": 0,
+  "toolCalls": 0,
+  "toolMs": 0,
+  "usage": {
+    "input": 0,
+    "output": 0,
+    "cacheRead": 0,
+    "cacheWrite": 0,
+    "totalTokens": 0,
+    "cost": 0
+  },
+  "calls": []
+}

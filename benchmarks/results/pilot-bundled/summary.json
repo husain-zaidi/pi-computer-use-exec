@@ -1,0 +1,319 @@
+[
+  {
+    "id": "code-1-cc55f4d3",
+    "variant": "code",
+    "trial": 1,
+    "exit": {
+      "code": 0,
+      "signal": null
+    },
+    "timedOut": false,
+    "elapsedMs": 5756.1241,
+    "taskMs": null,
+    "submissionMs": null,
+    "success": false,
+    "submissions": [],
+    "turns": 0,
+    "toolCalls": 0,
+    "toolMs": 0,
+    "usage": {
+      "input": 0,
+      "output": 0,
+      "cacheRead": 0,
+      "cacheWrite": 0,
+      "totalTokens": 0,
+      "cost": 0
+    },
+    "calls": []
+  },
+  {
+    "id": "baseline-1-a4a04404",
+    "variant": "baseline",
+    "trial": 1,
+    "exit": {
+      "code": 0,
+      "signal": null
+    },
+    "timedOut": false,
+    "elapsedMs": 45036.1212,
+    "firstAgentMs": 4551.577799999999,
+    "agentEndMs": 44977.2421,
+    "taskMs": 40425.664300000004,
+    "submissionMs": 33902.7879,
+    "success": true,
+    "submissions": [
+      {
+        "data": {
+          "name": "Ada Lovelace",
+          "email": "ada@example.test",
+          "company": "Analytical Engines",
+          "job": "Research Engineer",
+          "notes": "Please send the workshop agenda.",
+          "updates": true
+        },
+        "ok": true,
+        "elapsedMs": 33902.7879,
+        "timestamp": "2026-09-12T08:50:48.251Z"
+      }
+    ],
+    "turns": 13,
+    "toolCalls": 12,
+    "toolMs": 6044.925099999999,
+    "usage": {
+      "input": 39,
+      "output": 908,
+      "cacheRead": 35070,
+      "cacheWrite": 4556,
+      "totalTokens": 40573,
+      "cost": 0.13781
+    },
+    "calls": [
+      {
+        "name": "launch_browser",
+        "id": "call_voqZiiajWkY8zSOtsCpJkweA|YZc5iBYCy4YMEDWzBhNSNA7CuUPqq15DdxYZY9+VRtVXVGJgaZMkAQq0od2SeZc47Nntzg6R1viPj3TWz+CkGYClgqIQjCwWMHtFwNrqV00HDBjLDZDHPCevUTco+YFh/ud8/qIh6GnCI/17GdNleyzxwieJlQRGCTvHZLjeWlmWPxfAjTPCi2TCdl3J/5tVMdgkJTZfm1hpsR1QpK19GKIlGe1s98C83DVuu8Vdx4mq0ZLBQrlGBR2LpcgQL9cnLKKg5vxpcI2jHOqIU+KN5aFVKiRAf1NM+GthCW43taeS0vaoKLXmZQFyjDtI6eT2YGL9N97NtDmnALa1be4j7meXsEwJUVgZd6y5ENT0RzD3KldXkVFFFQyTOU+BvB/CrJQAlldHStrFRoKho/K4QZEk/cxDyz4=",
+        "startMs": 7539.340200000001,
+        "args": {
+          "url": "http://127.0.0.1:58095/case/baseline-1-a4a04404"
+        },
+        "endMs": 12541.188699999999,
+        "durationMs": 5001.848499999998,
+        "isError": false
+      },
+      {
+        "name": "observe_ui",
+        "id": "call_OX8pyAc2J2dXUs31lJbh1yRz|vBe9gtJ6s+DtvFwX3fksvCMt+sxA1DNifTIHhSJHOuvNkc5QMR9l2pQasITmVDvMUe07ji85jYlTLVhNVEeNXP7ZX8dMRUqRjkcx1Guqlm6LygHv1KA8vl7Ebn1ECbH1nhjwlFg1rLWam903irEP4iRS3Xn3mRIIuIbJDKPsNKTLmNYc+o5Zdfj5WNKwYlxLfVAe8DtBO6eLHf/wkfnMx0+o9iTJWcA0Oxyd23pDoW8kDumsQKdQ0n25iB2/Z9fsOKURts5K0QK4/lVlH7CU1ORNIp70Yh4wwkq3BYWv1bMOEyIdl6r5LyD2gKImRb2ZNy9DN1pPCcbRpUg32pjZvRvypxTClqhYkLPJEgN/2Hx+DAt17eDs3OTJa6/hsLAawewWu538lPesH9a25/DVRiSvw4Psya8=",
+        "startMs": 14853.1214,
+        "args": {
+          "root": "@r1",
+          "mode": "fused"
+        },
+        "endMs": 14883.1158,
+        "durationMs": 29.994399999999587,
+        "isError": false
+      },
+      {
+        "name": "expand_ui",
+        "id": "call_SidXpxUFTj59NqQFx2rVXGNZ|S6bNooTFO7oRM3I4mOb4aAjhS3FmtW3gKkzt72wTpQdz5rQamWGQPjkE9TSXGEaugfBR2nb7yXuEO7pW9rLIUa7TENo3R2rFw8r2LXnYp0que1xdCNjR3ckc2cSBKfCJ/4O2gOwaid1jOMgpvIkEKhDpX+14S6ZMO1UquMaxRy0akHQ/z/05x20euNcswT74x6wa9/jU+pdTDYd2ZQE5RknaehqFPQIHXGRsLovimlW4/I4iv0YTDO58btV4ElWGyiYf1i0I9fgKALv9qfovrZfkpIh8WPRiB2RBJNEyPhzeYtyJozfoNU3YevDsKEyBMcMssorsgjMPNtVqKkNic33C1JsJPMNKiQPZpRhPeBg/NlLIoEkSz28/QFxNqs+Hsc+PM8l29hM8ki05Vk4QoHF+UgeaUOw=",
+        "startMs": 16856.2215,
+        "args": {
+          "ref": "@e3",
+          "depth": 6,
+          "stateId": "a581fb06-ad95-4ad5-aa50-3a54ce64527b"
+        },
+        "endMs": 16861.8964,
+        "durationMs": 5.674900000001799,
+        "isError": false
+      },
+      {
+        "name": "act_ui",
+        "id": "call_gsoIWO52CDW0gdg7jSd6hcpi|nufek0+oSnTk1XHNhfIjfwgEB38u3PRtdPsNRZUgKpICbxxYMs9SdF4PUvV1V1YsHwE2jZMpTmB4nb7ZBBcIpx9EJbEhBQLW/6hXI6zxMAIa3eevD1uRBCyrYW2Vst7YamS+1zI2R5uPoDlBJiLEdnKQLb4bdx/E3YiBKwzD/A/JUuoL0nQWfD8QUHZrcJ0PZ+wd0Qejd+XQCcygin9vUeCOuURcLBkEw/eG5vqSTElLBgKlG4oKJJhCmBwceu0AOFmY/hJpTHSIH4HcgDL8BYKHcr+Z8+5bJ9t+VkxcZJ45NR5545HSUQgfMnasI9B2kit8oTJwpBKheSkzraPvvnZ0q+TeUNuxkJkGI5DHqEMuOMfCoJgNLkb7ao7X+ste+nX+tQzYPc0kMGwOSqENL0g+aLnLnds=",
+        "startMs": 20676.8614,
+        "args": {
+          "stateId": "a581fb06-ad95-4ad5-aa50-3a54ce64527b",
+          "expect": {
+            "ref": "@e16",
+            "scopeRef": "@e7",
+            "text": "Register",
+            "role": "button",
+            "value": "",
+            "until": "present",
+            "timeoutMs": 10000
+          },
+          "actions": [
+            {
+              "action": "setText",
+              "ref": "@e20",
+              "text": "Ada Lovelace"
+            },
+            {
+              "action": "setText",
+              "ref": "@e22",
+              "text": "ada@example.test"
+            },
+            {
+              "action": "setText",
+              "ref": "@e24",
+              "text": "Analytical Engines"
+            },
+            {
+              "action": "setText",
+              "ref": "@e26",
+              "text": "Research Engineer"
+            },
+            {
+              "action": "setText",
+              "ref": "@e28",
+              "text": "Please send the workshop agenda."
+            },
+            {
+              "action": "click",
+              "ref": "@e29",
+              "button": "left",
+              "clickCount": 1
+            }
+          ]
+        },
+        "endMs": 20710.7157,
+        "durationMs": 33.85429999999906,
+        "isError": true
+      },
+      {
+        "name": "act_ui",
+        "id": "call_aDqPrKwl7BDTR2Es14cZdPw9|k7JV0/D1MJBa3443fPI7+7FstSNZOMinSl2CNt1lMIf+fgTRw4XzTFo7fv6mJmbh8sxUnrsguucjXQ5gSoMm8c35Zj3bOZfq6mpakT8PDM6FHkZAaG8B0ODvrqz0IT5OQLFPiazL8LYWt6aPkE1oLuI/RBhctS0lmKoMMJr3VV6ehnNrJ+oruVZdJEfsGdN7ZvlieDODhirK7jTksPc/mLBg6+QbfZuQqO5T++plaY82wMwjn6sXYTDjGScWEA/lVEYeenvmDyCMrphFEpqMQdm7N48gUdJg/Jb+DmsZTwodbVNP/JUUwFMeEgiUGCB+6E9YzC0ioX/b0Rd6JVQeA2X9hCJxIyOThRz2bbrqgy5enbIpL8G0t9K8iULLLiSrduZ1BCDaznSSbXRWM5ix5Y6G45LSXEQ=",
+        "startMs": 25189.9149,
+        "args": {
+          "stateId": "a581fb06-ad95-4ad5-aa50-3a54ce64527b",
+          "expect": {
+            "ref": "@e16",
+            "scopeRef": "",
+            "text": "Register",
+            "role": "button",
+            "value": "",
+            "until": "present",
+            "timeoutMs": 10000
+          },
+          "actions": [
+            {
+              "action": "setText",
+              "ref": "@e20",
+              "text": "Ada Lovelace"
+            },
+            {
+              "action": "setText",
+              "ref": "@e22",
+              "text": "ada@example.test"
+            },
+            {
+              "action": "setText",
+              "ref": "@e24",
+              "text": "Analytical Engines"
+            },
+            {
+              "action": "setText",
+              "ref": "@e26",
+              "text": "Research Engineer"
+            },
+            {
+              "action": "setText",
+              "ref": "@e28",
+              "text": "Please send the workshop agenda."
+            },
+            {
+              "action": "click",
+              "ref": "@e29",
+              "button": "left",
+              "clickCount": 1
+            }
+          ]
+        },
+        "endMs": 25671.3066,
+        "durationMs": 481.3917000000001,
+        "isError": false
+      },
+      {
+        "name": "inspect_ui",
+        "id": "call_u0hhXgFb5H47PoZOCN5WQdq1|PJrtdqMxQF0OtNtpTA20r1XQopaITB39oFdu8K+JOmx7FTS3pI+QJlQ5PjX92+NGtQsC0TFjl8rxyiy/OPAtl2KMkS4JN/oznGDAB23354oYoAhcuX4JTTeKDa6ffQB+GaijtUp/ur85caoaslw+xWTG+p8Na6Wcsk2bWN9XeSLPkj5wRz6VsKB62YczH4hLrlWdH6G7tlmjvxLyG/WebVha71WXAsvyHeFcGkHsnm5LHZLRrXTnnW1pUHu1aQvKrIqE2eAJscHy4Njie90/rklHBfo4E+IX7dFXHuIOtA/RduoV3GM7CkDqZYTcVUf34Fd4MljXmXn+2LggpIUuDGyp9RpETh3psABM7NtxpxH52SfG+1qIcWfcdwKl5RGz3BrRaoSm1/gCojbpF6FC2qROmME0yyA=",
+        "startMs": 28149.865899999997,
+        "args": {
+          "ref": "@e29",
+          "stateId": "e4f5d8bd-8419-414e-afad-25e6f2eb7883"
+        },
+        "endMs": 28154.9663,
+        "durationMs": 5.100400000002992,
+        "isError": false
+      },
+      {
+        "name": "evaluate_browser",
+        "id": "call_nXmzfS7Tsx7YxvrZguAFPc1o|PkwwZF8D+bkf2p841PrywNckLZDxTawVMnkKJSQ1zmz6X3xmZyo4EhXo0hAoUDkzphKOAjMgUVQcQsnn2aF5ADHN7Kc9atBV1sPU8LOfcop5B1rkbFR7LjrVcrN4otXyH3K+FS9IdDYweLgZToxSnL7BgCgfJ9XoHVG6kmRBJiFgv2n9dL0CJ0ZPnwoOvI7RAZDH0ve+AU8pyjYOs44yoy8hkuhqRPs4MzMtlqAxTomoSV3p+6+OtpfmWipknypr4ERd7uUtKwWbLQWW7++Eocsmm4rk7Lzl6lNOn2W9Vgng++U+Gq902sa8Qz7BdFFa3omu42veRzRmijwh2ujrkpBL9UuGW151SWfK07GW4/qEinQqWpqossax1QL5ol+lIcH+dPBBCT0pY9b1DUt7BUUBrHn9Vhk=",
+        "startMs": 30673.336499999998,
+        "args": {
+          "stateId": "e4f5d8bd-8419-414e-afad-25e6f2eb7883",
+          "expression": "Array.from(document.querySelectorAll('input[type=\"checkbox\"]')).map(e=>({checked:e.checked,outerHTML:e.outerHTML}))"
+        },
+        "endMs": 30775.8598,
+        "durationMs": 102.52330000000075,
+        "isError": false
+      },
+      {
+        "name": "act_ui",
+        "id": "call_7KTX4bzTDJt917c9Br4J5R1l|OU16kprCeX3NC1bai3/Rwq1cw8bIGTDSfpSi6ERDPrsrgEEJNbgTjsEFPq7dusDBRXe/IU229b1u3vW038pOqJ2oRt3WMB1ffxH19Mc8+U90PMOc+nniC3xxu7xhg1ENeluSH3LSnxdGSjMZGTMrI+gBTPQmy3jUj50ic69kQcgKuN/FVAVFfmGa6MOh1GkC+zBv4lW4Of1GNiZ5k6bCS86fgCW6fACTWJCwCOV4D53BEz0acjUj6UNfmRSx5OZrTeXkLxzvdzoK0GLk83Nfpv6C1M/hIWVjtmU397XVP/nJ2WrtAYBz6Z2y3NbNFkGk61zv3nXYS1iH4lLs+sbrJPCI63rCrPS0qE8POsyEE2W2QR7APmExm1Qn2ToyESYd2x9lyI3FVxUKX2u/sxKmyHVUPU8UqbE=",
+        "startMs": 33823.0455,
+        "args": {
+          "stateId": "c423d54b-f8d6-4cbe-9331-a58cd7476318",
+          "expect": {
+            "ref": "",
+            "scopeRef": "",
+            "text": "Registration complete",
+            "role": "",
+            "value": "",
+            "until": "present",
+            "timeoutMs": 10000
+          },
+          "actions": [
+            {
+              "action": "click",
+              "ref": "@e16",
+              "button": "left",
+              "clickCount": 1
+            }
+          ]
+        },
+        "endMs": 34086.3529,
+        "durationMs": 263.30739999999787,
+        "isError": false
+      },
+      {
+        "name": "search_ui",
+        "id": "call_SGD1lboAS9oPuqtkUNVmeaiv|LJRX8jLdq4wJ27+HqxvWoZkVezrBqVWSCyv5JzHSHo8GcmRSx00ikgq1OBNug+LDYjDcgEMaR9RACZGUD/MvGZ7JTFBFXyIpVm5yGrnH4tcPg9LoszEEW2myafUA6xXsrOwA8Voo3UVrF5Y8YgdxBHSroLeNNR7esZONs9ZYlNu0mvyuravtPdVhxZqiwlUOEQpPFKKI26/gIWfmOR2dECdGlM8JCWzdeXa2fOLqcveb5jVWavnUNj8BMAyYC1sRA82N7R/TjMdKGBNTdnOr97rtwVDhAoe8MR6KqRLHLaHxemR46fnjpYUge6JytwCJLX979ko871HpcyWPUxwA2TMmTLPeiDeJIjj/IMbOzSJ4AxRFztR4kG2tnP0W8Jdtzk+FWLpdFQMOgD9dyVTzbHSFAg+XU3U=",
+        "startMs": 36672.1726,
+        "args": {
+          "text": "Registration complete",
+          "role": "",
+          "capability": "",
+          "stateId": "d354192f-cc37-4cc9-84a8-68852c7ac4b9"
+        },
+        "endMs": 36736.7255,
+        "durationMs": 64.55290000000241,
+        "isError": true
+      },
+      {
+        "name": "observe_ui",
+        "id": "call_2lZAdXikqhklLjojzkGPP0XB|rTn9dNrG9oODdrS8xg0KNtJ9v3pqMhd8mjaCNseFxa7zPjMtxBResYe+MFSA7Rk6oybbb+jnplHqUO4hKYNFyR64LUoyoBMv5FI7VNIu3DTch7yRQyCy8tJIE7vN/BUF9OGQ+3biS8/gWCfZ5IwJW3Mdz1RqJ+3AgxUmne4IPmpjFf+HY+ncNtCH48p2RkGBzksPUPBU3WIx7dqBCTY4VD4eZ25/a1LmwcKxK+CVbmCXxtcJplEHGRW5z0N4/IQATweOkNR4xcvZaVyDc9UixAYm59NlB/UGJlH9CeqJYUBwHenyJQq4zle5lhu2oct6bpExWnVWPjrzjUAQ6ndLtXh4mgImr5cZsU5v3D5D3sFwUtaJamu638EwCQ6c4eU4cHYSdTNp/YR+fATmpY4vwxVr66yKxwE=",
+        "startMs": 38370.7489,
+        "args": {
+          "root": "@r1",
+          "mode": "fused"
+        },
+        "endMs": 38420.1559,
+        "durationMs": 49.40699999999924,
+        "isError": false
+      },
+      {
+        "name": "expand_ui",
+        "id": "call_7M1VXRdApJZwty0m6KSMXTzb|cs06ox0t/Lc/QCaErYbLw38kpU+gViZHEQo32hyGNUUywZ0cZwxKwwGTvfgPjULxxB+tnXLjyCkfQPDmLW6SP6iJQFYdTqEMcqzZHGr5SN+XYwEoShnBQUHl816AXccOZjCZqTW2qHJ5Q+nv1scvFG7oQUWQ6UA/0tTExMlgI3m/jREnP1oZsmf4yNi3wogeQq3u9zDMNvN6rOwGrNyBaHo1L+NAYNz/dN97J6RcWOKff1fYjp8sjsuq8fhOdVY2HuWuv73otjyTw626fvhwAtrwGr9fzCyQU/DK37C3lq/GsiAZaw2nBHWUPS8XC+4an5rt1bWQ96AYh803zEezb3YbuwQLADjmPHuQryEMYi6sAvHTyzJak1qoeJ8EK6FtAApJiYC3Sr8MlZwDv7Gh1pXql8aNwHY=",
+        "startMs": 40758.882,
+        "args": {
+          "ref": "@e3",
+          "depth": 4,
+          "stateId": "3a4b7471-0663-4e62-8c5f-698019f33c98"
+        },
+        "endMs": 40762.2599,
+        "durationMs": 3.3778999999994994,
+        "isError": false
+      },
+      {
+        "name": "expand_ui",
+        "id": "call_kb1gYu5cuBa3o1yJPUhkmMvb|Avmty0IyGrUsppRQlyrEIEEL0QCcCMhOSN+RhfKHvaw80ZHJOQLSQIgcnbqqa0j3fUul78DtmmAFBETJEWJLgKKjK7sfBbvnZJuYv0G+P94bt38xNnfWLou75iqyxQgZ42LWemBrTlgJF+3GJNx8yb4u6yj0MpodQXiW4PFWyjYvtEuiWN+11hb9VYY0Jyjo0bDOykSVnVfr1FeFop9VD+1BNiOzJ9C4LnYojtbMtSgYe5IDLgikxRiUEZaWyjhH25LTu6+1aiehqZUH6hbxBAN+QdcWE84yqVr/B7NifgxJ3tkz+J8RorAHVuL+Ji1Xk6t4+aB9oTJVmt6Na++rzwX9R6gD1a/VoA7WNb1zqQoB8zeVIGS0nUO5WzKtgAOVG46gHZOMXOePJZWtqAxpgPurMwp4Yog=",
+        "startMs": 42665.4095,
+        "args": {
+          "ref": "@e8",
+          "depth": 3,
+          "stateId": "3a4b7471-0663-4e62-8c5f-698019f33c98"
+        },
+        "endMs": 42669.3019,
+        "durationMs": 3.8923999999969965,
+        "isError": false
+      }
+    ]
+  }
+]

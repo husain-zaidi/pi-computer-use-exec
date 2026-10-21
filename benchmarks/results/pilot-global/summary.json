@@ -1,0 +1,56 @@
+[
+  {
+    "id": "code-1-a77be944",
+    "variant": "code",
+    "trial": 1,
+    "exit": {
+      "code": 1,
+      "signal": null
+    },
+    "timedOut": false,
+    "elapsedMs": 11873.6777,
+    "taskMs": null,
+    "submissionMs": null,
+    "success": false,
+    "submissions": [],
+    "turns": 0,
+    "toolCalls": 0,
+    "toolMs": 0,
+    "usage": {
+      "input": 0,
+      "output": 0,
+      "cacheRead": 0,
+      "cacheWrite": 0,
+      "totalTokens": 0,
+      "cost": 0
+    },
+    "calls": []
+  },
+  {
+    "id": "baseline-1-2b6f2536",
+    "variant": "baseline",
+    "trial": 1,
+    "exit": {
+      "code": 1,
+      "signal": null
+    },
+    "timedOut": false,
+    "elapsedMs": 7711.588600000001,
+    "taskMs": null,
+    "submissionMs": null,
+    "success": false,
+    "submissions": [],
+    "turns": 0,
+    "toolCalls": 0,
+    "toolMs": 0,
+    "usage": {
+      "input": 0,
+      "output": 0,
+      "cacheRead": 0,
+      "cacheWrite": 0,
+      "totalTokens": 0,
+      "cost": 0
+    },
+    "calls": []
+  }
+]

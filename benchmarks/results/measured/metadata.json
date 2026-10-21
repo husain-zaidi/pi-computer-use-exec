@@ -1,0 +1,28 @@
+{
+  "generatedAt": "2026-09-12T09:09:10.973Z",
+  "node": "v24.13.0",
+  "platform": "win32",
+  "architecture": "x64",
+  "osRelease": "10.0.26310",
+  "model": "github-copilot/gpt-6-astra",
+  "thinking": "medium",
+  "pi": "0.85.0",
+  "python": "3.13.14",
+  "playwright": "1.58.0",
+  "pyautogui": "0.9.54",
+  "chromium": "145.0.7632.6",
+  "baseline": "@injaneity/pi-computer-use@0.5.1",
+  "baselineTarballSha256": "ec7fff45a3febbab2b5c302db1171f5f10d6ca85aacd892a9f422028246dcb79",
+  "sourceSha256": {
+    "extensions/index.ts": "e1a12127a7409adcf1bb797ddbed182fe22abf9da4f017994d6778e062f544f9",
+    "src/client.ts": "0bbad192d2d06479481f4bcf6d8aa13824a9b43fc69f83bdbf2e3f88ab6e4930",
+    "python/worker.py": "abbab2f29512c9f3286d069448099758bde53ff35941bd44c10ed47ad4a7f3d7",
+    "python/lifecycle.py": "7aad3534d861222921fc9b923d289ea1946c48660312fa0ec52b409144253855",
+    "python/cleanup.py": "c9030c0c79eb83ecd0c4272693520fd7c699f01d1e98363835fa4bdcf358598b",
+    "python/release_inputs.py": "eebd1d132d5d4cf8623da64b6e4325cd0566c2b75203e9344ea4354c679759b5",
+    "benchmarks/run.mjs": "f91b226b47b565601d7400778700d762f1e28555da4958172a561d3f4b1845b8",
+    "benchmarks/supervise.py": "7aee425bcc2b51428e48eb34822816f7306edc153a84722cc8080a80407ed754",
+    "benchmarks/form.html": "6eef6b7fa75cd910525b03e5d26f6ad21d4472115b5ecf86a07858dd4ba9530f",
+    "requirements.txt": "9a9120377a434df672c43121f63989bc28e28b57dc2fff6404cda5e4d93d5346"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "backend": "PyAutoGUI typing + Playwright setup/focus/verification",
+  "llmDriven": false,
+  "actionWallMs": 2644.020100007765,
+  "received": [
+    {
+      "name": "Ada Lovelace",
+      "email": "ada@example.test",
+      "company": "Analytical Engines",
+      "job": "Research Engineer",
+      "notes": "Please send the workshop agenda.",
+      "updates": true
+    }
+  ],
+  "result": {
+    "id": 2,
+    "content": [
+      {
+        "type": "text",
+        "text": "{'title': 'Desktop smoke cc87384e6f - Google Chrome for Testing', 'focused': True}\nRegistration complete\nname: Ada Lovelace\nemail: ada@example.test\ncompany: Analytical Engines\njob: Research Engineer\nnotes: Please send the workshop agenda.\nupdates: true\n"
+      }
+    ],
+    "error": null,
+    "fatal": false,
+    "executionMs": 2642.885
+  }
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "pid": 34416,
+    "url": "http://127.0.0.1:58095/case/baseline-1-a4a04404",
+    "code": 0,
+    "output": "SUCCESS: The process with PID 24908 (child process of PID 34416) has been terminated.\r\nSUCCESS: The process with PID 9400 (child process of PID 34416) has been terminated.\r\nSUCCESS: The process with PID 10996 (child process of PID 34416) has been terminated.\r\nSUCCESS: The process with PID 2300 (child process of PID 34416) has been terminated.\r\nSUCCESS: The process with PID 24748 (child process of PID 34416) has been terminated.\r\nSUCCESS: The process with PID 32808 (child process of PID 34416) has been terminated.\r\nSUCCESS: The process with PID 31176 (child process of PID 34416) has been terminated.\r\nSUCCESS: The process with PID 34416 (child process of PID 8600) has been terminated.",
+    "error": ""
+  },
+  {
+    "pid": 11824,
+    "url": "http://127.0.0.1:60064/case/baseline-1-6a11cbfd",
+    "code": 0,
+    "output": "SUCCESS: The process with PID 3328 (child process of PID 17076) has been terminated.\r\nSUCCESS: The process with PID 17076 (child process of PID 11824) has been terminated.\r\nSUCCESS: The process with PID 22332 (child process of PID 11824) has been terminated.\r\nSUCCESS: The process with PID 8376 (child process of PID 11824) has been terminated.\r\nSUCCESS: The process with PID 29948 (child process of PID 11824) has been terminated.\r\nSUCCESS: The process with PID 14944 (child process of PID 11824) has been terminated.\r\nSUCCESS: The process with PID 27972 (child process of PID 11824) has been terminated.\r\nSUCCESS: The process with PID 16516 (child process of PID 11824) has been terminated.\r\nSUCCESS: The process with PID 11824 (child process of PID 8272) has been terminated.",
+    "error": ""
+  },
+  {
+    "pid": 12120,
+    "url": "http://127.0.0.1:51007/case/baseline-1-a235d011",
+    "code": 0,
+    "output": "SUCCESS: The process with PID 23488 (child process of PID 12120) has been terminated.\r\nSUCCESS: The process with PID 26100 (child process of PID 12120) has been terminated.\r\nSUCCESS: The process with PID 8248 (child process of PID 12120) has been terminated.\r\nSUCCESS: The process with PID 37240 (child process of PID 12120) has been terminated.\r\nSUCCESS: The process with PID 21080 (child process of PID 12120) has been terminated.\r\nSUCCESS: The process with PID 36232 (child process of PID 12120) has been terminated.\r\nSUCCESS: The process with PID 9624 (child process of PID 12120) has been terminated.\r\nSUCCESS: The process with PID 12120 (child process of PID 33964) has been terminated.",
+    "error": ""
+  },
+  {
+    "pid": 21904,
+    "url": "http://127.0.0.1:51007/case/baseline-2-a24c7a22",
+    "code": 0,
+    "output": "SUCCESS: The process with PID 16036 (child process of PID 21184) has been terminated.\r\nSUCCESS: The process with PID 21184 (child process of PID 21904) has been terminated.\r\nSUCCESS: The process with PID 15264 (child process of PID 21904) has been terminated.\r\nSUCCESS: The process with PID 14948 (child process of PID 21904) has been terminated.\r\nSUCCESS: The process with PID 36248 (child process of PID 21904) has been terminated.\r\nSUCCESS: The process with PID 30004 (child process of PID 21904) has been terminated.\r\nSUCCESS: The process with PID 21952 (child process of PID 21904) has been terminated.\r\nSUCCESS: The process with PID 31008 (child process of PID 21904) has been terminated.\r\nSUCCESS: The process with PID 21904 (child process of PID 5512) has been terminated.",
+    "error": ""
+  },
+  {
+    "pid": 34204,
+    "url": "http://127.0.0.1:51007/case/baseline-3-8140f06e",
+    "code": 0,
+    "output": "SUCCESS: The process with PID 9948 (child process of PID 34204) has been terminated.\r\nSUCCESS: The process with PID 35012 (child process of PID 34204) has been terminated.\r\nSUCCESS: The process with PID 19752 (child process of PID 34204) has been terminated.\r\nSUCCESS: The process with PID 22184 (child process of PID 34204) has been terminated.\r\nSUCCESS: The process with PID 9640 (child process of PID 34204) has been terminated.\r\nSUCCESS: The process with PID 14636 (child process of PID 34204) has been terminated.\r\nSUCCESS: The process with PID 22308 (child process of PID 34204) has been terminated.\r\nSUCCESS: The process with PID 34204 (child process of PID 12140) has been terminated.",
+    "error": ""
+  },
+  {
+    "pid": 37992,
+    "url": "http://127.0.0.1:51007/case/baseline-3-8140f06e",
+    "code": 0,
+    "output": "SUCCESS: The process with PID 6364 (child process of PID 38056) has been terminated.\r\nSUCCESS: The process with PID 38056 (child process of PID 37992) has been terminated.\r\nSUCCESS: The process with PID 39524 (child process of PID 37992) has been terminated.\r\nSUCCESS: The process with PID 36696 (child process of PID 37992) has been terminated.\r\nSUCCESS: The process with PID 39764 (child process of PID 37992) has been terminated.\r\nSUCCESS: The process with PID 2420 (child process of PID 37992) has been terminated.\r\nSUCCESS: The process with PID 39288 (child process of PID 37992) has been terminated.\r\nSUCCESS: The process with PID 38908 (child process of PID 37992) has been terminated.\r\nSUCCESS: The process with PID 37992 (child process of PID 38460) has been terminated.",
+    "error": ""
+  }
+]

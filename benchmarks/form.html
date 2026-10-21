@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><title>Workshop registration — computer-use benchmark</title>
+<style>
+body { font: 16px system-ui; background: #f2f5fa; color: #182337; margin: 24px; }
+main { background: white; max-width: 520px; margin: auto; padding: 24px; border-radius: 12px; }
+h1 { font-size: 24px; margin-top: 0; } p { color: #45556b; }
+label { display: block; margin: 10px 0; } input:not([type=checkbox]), textarea { display: block; box-sizing: border-box; width: 100%; padding: 8px; font: inherit; border: 1px solid #7b8899; border-radius: 4px; }
+button { background: #1858c9; color: white; border: 0; padding: 12px 20px; border-radius: 5px; font: inherit; cursor: pointer; }
+#result { white-space: pre-wrap; color: #176331; } [hidden] { display: none; }
+</style>
+<main><h1>Workshop registration</h1><p>Local test form. No email is sent and no external service is contacted.</p>
+<form id="registration">
+<label>Full name<input name="name" autocomplete="off" required></label>
+<label>Email<input name="email" type="email" autocomplete="off" required></label>
+<label>Company<input name="company" autocomplete="off" required></label>
+<label>Job title<input name="job" autocomplete="off" required></label>
+<label>Notes<textarea name="notes" rows="2" required></textarea></label>
+<label><input name="updates" type="checkbox"> Send workshop updates</label>
+<button type="submit">Register</button>
+</form><section id="result" role="status" aria-live="polite" hidden></section></main>
+<script>
+const form = document.querySelector('form');
+form.addEventListener('submit', async event => {
+  event.preventDefault();
+  const button = form.querySelector('button');
+  button.disabled = true;
+  const data = Object.fromEntries(new FormData(form));
+  data.updates = form.elements.updates.checked;
+  const response = await fetch('/submit/' + location.pathname.split('/').pop(), {
+    method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data)
+  });
+  const accepted = await response.json();
+  const result = document.querySelector('#result');
+  result.hidden = false;
+  result.textContent = accepted.ok
+    ? 'Registration complete\n' + Object.entries(data).map(([k,v]) => k + ': ' + v).join('\n')
+    : 'Registration rejected: please check the test values.';
+  button.disabled = false;
+});
+</script></html>

@@ -1,0 +1,27 @@
+{
+  "id": "code-1-cc55f4d3",
+  "variant": "code",
+  "trial": 1,
+  "exit": {
+    "code": 0,
+    "signal": null
+  },
+  "timedOut": false,
+  "elapsedMs": 5756.1241,
+  "taskMs": null,
+  "submissionMs": null,
+  "success": false,
+  "submissions": [],
+  "turns": 0,
+  "toolCalls": 0,
+  "toolMs": 0,
+  "usage": {
+    "input": 0,
+    "output": 0,
+    "cacheRead": 0,
+    "cacheWrite": 0,
+    "totalTokens": 0,
+    "cost": 0
+  },
+  "calls": []
+}
